@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function FormText() {
     const textPswd = React.useRef()
     const textPswd2 = React.useRef()

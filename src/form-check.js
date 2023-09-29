@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function FormCheck() {
     const switchReq = React.useRef()
     const styles = ['bold','italic','underline']

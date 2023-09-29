@@ -1,6 +1,6 @@
 import React from "react";
 import FormCheck from "./form-check";
-// import FormText from "./form-text";
+//import FormText from "./form-text";
 // import Router2 from "./router2";
 // import Router3 from "./router3";
 // import Banner from "./banner";
@@ -12,7 +12,6 @@ import FormCheck from "./form-check";
 // import RefsArray from "./refs-array";
 // import MessageBox from "./state-func";
 // import { userContext } from './context';
-// import Header from "./context-header";
 // import Content from "./context-content";
 // import Header2 from "./context-header2";
 // import Content2 from "./context-content2";
