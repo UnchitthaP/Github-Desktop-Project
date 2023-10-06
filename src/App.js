@@ -1,5 +1,7 @@
 import React from "react";
-import FormCheck from "./form-check";
+//import FormSelectFile from './form-select-file';
+import FormValidation from './form-validation';
+//import FormCheck from "./form-check";
 //import FormText from "./form-text";
 // import Router2 from "./router2";
 // import Router3 from "./router3";
@@ -16,35 +18,6 @@ import FormCheck from "./form-check";
 // import Header2 from "./context-header2";
 // import Content2 from "./context-content2";
 
-function App() {
-  // let [user,setUser] = React.useState()
-  return (
-    <>
-      {/* <Header/>
-      <p><center><Calendar/></center></p>
-      <Content/>
-      <Banner/>
-      <Calculator2/>
-      <EventData2/>
-      <RefsFunc/> */}
-      {/* <RefsArray/> */}
-      {/* <RefsArray/> */}
-      {/* <Footer/> */}
-      {/* <MessageBox/> */}
-      {/* <userContext.Provider value={'Tom jerry'}>
-        <Header/>
-        <Content/>
-      </userContext.Provider> */}
-      
-      {/* <userContext.Provider value={[user,setUser]}>
-        <Header2/>
-        <Content2/>
-      </userContext.Provider> */}
-      {/* <Router3/> */}
-      {/* <FormText/> */}
-      <FormCheck/>
-    </>
-  )
+export default function App() {
+  return <FormValidation/>
 }
-
-export default App
